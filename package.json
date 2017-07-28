@@ -1,0 +1,24 @@
+{
+  "name": "angularjs-directives",
+  "version": "1.0.0",
+  "description": "AngularJS Directive Fundamentals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algil/angularjs-directives.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algil/angularjs-directives/issues"
+  },
+  "homepage": "https://github.com/algil/angularjs-directives#readme",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
