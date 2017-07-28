@@ -1,6 +1,6 @@
 angular.module('app', []);
 
-angular.module('app').controller('MainController', function($scope) {
+angular.module('app').controller('MainController', function() {
   var vm = this;
 });
 
