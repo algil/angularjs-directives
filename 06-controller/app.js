@@ -8,26 +8,20 @@ angular.module('app').controller('MainController', function($scope) {
       country: 'Spain'
     },
     friends: [
-        'Sergio',
-        'Inma',
-        'Izan'
+      'Sergio',
+      'Inma',
+      'Izan'
     ]
   };
-  console.log($scope);
 });
 
 angular.module('app').directive('userInfoCard', function () {
   return {
     templateUrl: 'userInfoCard.html',
     restrict: 'E',
-    //'scope: true' Create a new scope for this directive but inherit the scope parent (inside the prototype '__proto__')
-    scope: true,
     controller: function ($scope) {
-      //this print a different scope
-      console.log($scope);
-
+      //this is the parent scope (same $id)
       $scope.rankMe = function() {
-        //Accessing to a inherited parent property
         $scope.user.rank = 'Senior Developer';
       };
     }
