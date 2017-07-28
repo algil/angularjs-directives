@@ -1,10 +1,10 @@
-<h1>Name: {{vm.user.name}}</h1>
+<h1>Name: {{user.name}}</h1>
 
-<div ng-show="!!vm.user.address">
+<div ng-show="!!user.address">
 	<h2>Address:</h2>
-	{{vm.user.address.city}}<br>
-	({{vm.user.address.country}})
+	{{user.address.city}}<br>
+	({{user.address.country}})
 </div>
 
 <h2>Friends:</h2>
-<div ng-repeat="friend in vm.user.friends">{{friend}}</div>
+<div ng-repeat="friend in user.friends">{{friend}}</div>

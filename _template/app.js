@@ -1,5 +1,4 @@
 angular.module('app', []);
 
-angular.module('app').controller('MainController', function() {
-  var vm = this;
+angular.module('app').controller('MainController', function($scope) {
 });

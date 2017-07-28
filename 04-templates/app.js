@@ -1,8 +1,7 @@
 angular.module('app', []);
 
-angular.module('app').controller('MainController', function() {
-  var vm = this;
-  vm.user = {
+angular.module('app').controller('MainController', function($scope) {
+  $scope.user = {
     name: 'Antonio',
     address: {
       city: 'Malaga',
