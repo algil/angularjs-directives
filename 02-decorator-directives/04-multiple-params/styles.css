@@ -1,0 +1,20 @@
+body {
+    padding-top: 30px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.user-ok {
+
+}
+.user-warning {
+    color: yellow;
+}
+.user-problem {
+    color: orange;
+}
+.user-error{
+    color: red;
+}
