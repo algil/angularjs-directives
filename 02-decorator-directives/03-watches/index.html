@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>Angular Directives</title>
+	<link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body ng-controller="MainController" class="container">
+
+	<label for="size">Size:</label>
+	<input id="size" ng-model="size" value="100">
+	<label for="color">Color:</label>
+	<input type="color" id="color" ng-model="color">
+	<p font-scale="size" color="color">Change the font size with a directive</p>
+
+	<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="../../node_modules/angular/angular.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
